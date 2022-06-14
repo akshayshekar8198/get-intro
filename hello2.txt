@@ -1,4 +1,1 @@
-<p?php
-echo 'day1'
-?>
-akhay
+git day 2 
