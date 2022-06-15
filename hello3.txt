@@ -1,2 +1,4 @@
 day 2
 its was good working with you
+day 3 
+working on the push and pull command
