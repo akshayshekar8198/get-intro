@@ -32,3 +32,11 @@ mixed.push ('cat');
 mixed.push ('akshay');
 mixed.push ('health');
 console.log(mixed)
+mixed.map(function (item,index)
+{ console.log(item);
+    if (item === 1){
+        return 'one at place'+index
+    }
+    return item ;
+});
+console.log(mixed);
