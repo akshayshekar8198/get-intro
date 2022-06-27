@@ -4,8 +4,9 @@ function divid(divident){
 }
 console.log(divid(10))
 
+
 function update(){
-    divisor =10
+    divisors =10
 }
 update();
 console.log(divid(100))
