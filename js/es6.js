@@ -8,6 +8,7 @@ function person (fname){
 
 
 //for array format 
+<<<<<<< HEAD
  //var obj = [];
  for (var i= 0;i<10;i++){
     var obj = new person('person'+(i+1));
@@ -15,3 +16,6 @@ function person (fname){
     console.log(obj)
     console.log(obj[2])
  }
+=======
+
+>>>>>>> 157aaa0a21f7bd5627bab09ec09a5b4e197f61d4
