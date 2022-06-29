@@ -17,7 +17,7 @@ var data = [
   //  console.log(typeof data[i],data[i]);
    // i++;
 //}
-do{
+{
     console.log(typeof data[i],data[i]);
     i++;
 }
