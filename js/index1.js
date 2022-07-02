@@ -75,3 +75,7 @@ console.log(square(2));
 
 const conf = n => ({name: n})
 console.log(conf("akshay"))
+
+
+
+
