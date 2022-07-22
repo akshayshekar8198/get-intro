@@ -12,8 +12,8 @@
 // import sum from './constract.js'
 // console.log(sum)
 //console.log(sub)
-import {PORT} from './constract.js'
-const http = require('http');
+//import {PORT} from './constract.js'
+const http = import('http');
 const server = http.createServer((req,resp)=>{
 resp.end('request compleated for '+req.url);
 });
