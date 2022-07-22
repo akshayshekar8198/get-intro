@@ -1,11 +1,12 @@
 {
-  "name": "es6-js",
+  "name": "exit",
   "version": "1.0.0",
-  "description": "",
+  "description": "node js",
+  "type": "module",
   "main": "closure.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "author": "Akshay",
   "license": "ISC",
@@ -20,6 +21,6 @@
     "raf": "^3.4.1",
     "rim": "^0.0.0",
     "rimraf": "^3.0.2"
-  }
-
+  },
+  "devDependencies": {}
 }

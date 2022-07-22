@@ -79,4 +79,4 @@ function* getvalue (){
     yield 4;
     yield 5;
 }
-connsole.log(a.next())
+connsole.log(a.next())//1295
