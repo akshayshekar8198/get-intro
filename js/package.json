@@ -2,11 +2,12 @@
   "name": "exit",
   "version": "1.0.0",
   "description": "node js",
-  "type": "module",
-  "main": "closure.js",
+  "main": "constract.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build":"npm run clean && npm run babel-build",
+    "file-demo":"babel-watch ./src/file.js"
   },
   "author": "Akshay",
   "license": "ISC",

@@ -1,24 +1,18 @@
-//const http = require('http');
-//import constants  from './constract';
-//console.log (constants)
-//import someName from './constract.js'
-//import * as constant from './constract.js'
-//const constants = require ('./constract')
-//console.log (constant)
-// console.log(PORT)
-// console.log( most)
+//import constants,{PORT} from './constract.js';
+ const PORT = 1234
+var http = require('http');
+const server = http.createServer((req, resp)=>{
+    console.log(req.url);
+    if(req.url === '/phone'){
+        resp.setHeader('Content-Type','application/json');
+        resp.end(JSON.stringify(constants));
+    }
+   // resp.setHeader('content-type','application/json');
+   // resp.end(JSON.stringify(constants));
 
-//import constract from "./constract";
-// import sum from './constract.js'
-// console.log(sum)
-//console.log(sub)
-//import {PORT} from './constract.js'
-const http = import('http');
-const server = http.createServer((req,resp)=>{
-resp.end('request compleated for '+req.url);
+   resp.end('<h1>Some text content</h1>')
 });
 
-server.listen(PORT,()=>{
-    console.log('listing to http://localhost:3000')
-}
-)
+server.listen(PORT, ()=>{
+    console.log(`listening to : http://localhost:${1234}}`)
+});
